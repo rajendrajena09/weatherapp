@@ -93,3 +93,28 @@ text-align: center;
 .weather{
     display: none;
 }
+
+@media (max-width:500px) {
+   .details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+  
+}
+
+@media (max-width:380px) {
+    .search input{
+        padding:5px 15px;
+        height: 50px;
+        margin-right: 5px;
+        margin-left: -15px;
+    }
+    .search button {
+        height: 50px;
+        width: 50px;
+
+    }
+    
+   
+ }
