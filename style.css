@@ -100,7 +100,7 @@ text-align: center;
     flex-direction: column;
     gap: 20px;
    }
-  
+   
 }
 
 @media (max-width:380px) {
@@ -109,11 +109,13 @@ text-align: center;
         height: 50px;
         margin-right: 5px;
         margin-left: -15px;
+        width: 10px;
     }
     .search button {
         height: 50px;
         width: 50px;
-
+        position: relative;
+        left: -56px;
     }
     
    
